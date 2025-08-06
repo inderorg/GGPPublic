@@ -1,0 +1,15 @@
+# git config user.name
+# git config user.email
+# git config --list
+# git clone repositoryurl
+# git add filenames.txt
+# git commit -m "commit message"
+# git branch newbranchName
+# git merge branchtomergeWith
+# git pull
+# git reset filename
+#git config --global user.name "yourname"
+# git config --global user.email "your email"
+# git config user.email yourEmail
+# git config --list
+
