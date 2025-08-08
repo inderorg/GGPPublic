@@ -25,7 +25,7 @@ on:
         run: mvn -B clean install
         -name: Deploy to AEM
         run: |
-         mvn -PautoInstallPackage -Daem.host=localhost -Daem.port=4502
+         mvn -PautoInstallPackage -Daem.host=localhost -Daem.port=4502 
         -Daem.username=admin -Daem.password=admin
         -name : Run Groovy Script
         run: |
@@ -36,4 +36,4 @@ on:
         with:
           name: content-usage-report
           path: content-usage-report.txt
-          
+
