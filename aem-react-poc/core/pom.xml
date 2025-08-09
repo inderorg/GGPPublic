@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM.4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLShema-instance"
+    sci:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<parent>
+    <groupId>com.example</groupId>
+    <artifactId>aem-react-poc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</parent>
+ <artifactId>aem-react-poc.core</artifactId>
+ <packaging>bundle</packaging>
+ <name>AEM React POC - Core</name>
+
+<build>
+    <plugins>
+        <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>5.1.2</version>
+        <extensions>true</extensions>
+        <configuration>
+            <instructions><Bundle-SymbolicName>com.example.aem-react-poc.core</Bundle-SymbolicName></instructions>
+        </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+</project>
